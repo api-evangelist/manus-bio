@@ -1,17 +1,54 @@
 aid: manus-bio
 name: Manus Bio
-description: 'Manus Bio is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+image: https://cdn.prod.website-files.com/6536fe08e98c41581598326f/6682ee89aa355ed6e2dca105_Manus%20Social%20Image.png
+description: 'Manus Bio Inc. (trading as "Manus", the BioAlternatives Company) is a Cambridge,
+  Massachusetts industrial biotechnology company founded in 2011 out of MIT by Dr. Aji Parayil
+  and Dr. Greg Stephanopoulos. Manus engineers microbial cell factories and precision-fermentation
+  processes so that complex molecules normally obtained through petrochemical synthesis, agricultural
+  extraction, or animal husbandry can be produced by fermentation instead - what the company calls
+  bioalternatives. Its commercialized products include the first U.S. commercial-scale monk fruit
+  sweetener (produced at its Augusta, Georgia BioFacility), the Yume M stevia Reb M sweetener
+  co-developed with Tate & Lyle, citrus-derived aroma ingredients (Nootkatone 70, Valencene 80,
+  BioNootkatone) for Givaudan, and an artemisinin antimalarial program funded by HHS/ASPR. It sells
+  scale-up services through its BioAccelerator and BioManufacturing programs (protein engineering,
+  strain development, bioprocess development from 250 ml to 3,000 L, pilot-scale and biomanufacturing).
+  In April 2025 Manus merged with genome-engineering company Inscripta, adding whole-genome editing
+  technology and the MAD7 CRISPR nuclease licensing program; inscripta.com is now a redirect notice.
+  Manus is a manufacturer of physical ingredients and a contract development and manufacturing
+  organization - it sells molecules and services, not software. It publishes no public API, developer
+  portal, SDK, webhook surface, or machine-readable specification of any kind, and its computational
+  and AI-driven enzyme-engineering tools are internal capabilities that support its services rather
+  than a customer-facing platform.'
 url: https://raw.githubusercontent.com/api-evangelist/manus-bio/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
+x-source-url: https://forgeglobal.com/manus-bio_stock/
 x-tier: stub
 x-tier-reason: harvest
+x-status: active
+x-merged-with: inscripta
+x-merged-date: '2025-04'
+x-references:
+- name: 'Manus: Manus and Inscripta merge to create a leader in industrial biomanufacturing'
+  url: https://www.manusbio.com/articles/manus-and-inscripta-merge-to-create-a-leader-in-industrial-biomanufacturing
+- name: 'Manus: Made in America - the first monk fruit sweetener produced in the U.S. at commercial scale'
+  url: https://www.manusbio.com/articles/made-in-america-manus-unveils-the-first-monk-fruit-sweetener-produced-in-the-u-s-at-commercial-scale
+- name: 'CU Boulder Venture Partners: Inscripta Inc. (now Manus Bio Inc.)'
+  url: https://www.colorado.edu/venturepartners/startup-portfolio/inscripta-inc-now-manus-bio-inc
 specificationVersion: '0.20'
 created: '2026-08-04'
 modified: '2026-08-04'
 tags:
 - Company
+- Biotechnology
+- Synthetic Biology
+- Biomanufacturing
+- Industrial Biotechnology
+- Precision Fermentation
+- Ingredients
+- Food and Beverage
+- Sustainability
+- Life Sciences
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -20,4 +57,59 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://forgeglobal.com/manus-bio_stock/
+  name: Manus
+  url: https://www.manusbio.com/
+- type: About
+  name: About Manus
+  url: https://www.manusbio.com/about
+- type: Blog
+  name: Insights and News
+  url: https://www.manusbio.com/insights-and-news
+- type: Contact
+  name: Contact
+  url: https://www.manusbio.com/contact
+- type: Careers
+  name: Careers
+  url: https://www.manusbio.com/careers
+- type: TermsOfService
+  name: Terms and Conditions
+  url: https://www.manusbio.com/terms-and-conditions
+- type: PrivacyPolicy
+  name: Cookie and Privacy Policy
+  url: https://www.manusbio.com/cookie-and-privacy-policy
+- type: GitHubOrganization
+  name: ManusBio on GitHub
+  url: https://github.com/ManusBio
+  description: Organization account exists (created 2025-08-22) but publishes zero public repositories.
+- type: DomainSecurity
+  name: Domain Security
+  url: security/manus-bio-domain-security.yml
+x-enrichment:
+  date: '2026-08-04'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: not-a-software-company
+  detail: Manus sells fermentation-produced ingredients and contract biomanufacturing services, not
+    software; its Webflow marketing site returns 404 for every contract-discovery path, no api./docs./developer.
+    subdomain resolves, and the github.com/ManusBio organization has zero public repositories.
+  evidence:
+  - url: https://www.manusbio.com/openapi.json
+    status: 404
+  - url: https://www.manusbio.com/llms.txt
+    status: 404
+  - url: https://www.manusbio.com/.well-known/security.txt
+    status: 404
+  - url: https://www.manusbio.com/.well-known/agent-card.json
+    status: 404
+  - url: https://www.manusbio.com/.well-known/agent.json
+    status: 404
+  - url: https://www.manusbio.com/sitemap.xml
+    status: 200
+  - url: https://www.inscripta.com/
+    status: 200
+  - url: https://api.github.com/orgs/manusbio
+    status: 200
+  checked: '2026-08-04'

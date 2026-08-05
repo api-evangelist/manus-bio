@@ -42,5 +42,20 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Manus Bio is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://forgeglobal.com/manus-bio_stock/
+Manus Bio Inc. (trading as "Manus", the BioAlternatives Company) is a Cambridge, Massachusetts industrial
+biotechnology company founded in 2011 out of MIT. Manus engineers microbial cell factories and
+precision-fermentation processes so complex molecules normally obtained through petrochemical synthesis,
+agricultural extraction, or animal husbandry can be produced by fermentation instead. Commercialized products
+include the first U.S. commercial-scale monk fruit sweetener (Augusta, Georgia BioFacility), the Yume™ M stevia
+Reb M sweetener co-developed with Tate & Lyle, citrus aroma ingredients for Givaudan, and an HHS/ASPR-funded
+artemisinin program. It merged with genome-engineering company Inscripta in April 2025.
+
+**No public API surface.** Manus sells molecules and contract biomanufacturing services, not software.
+An enrichment pass on 2026-08-04 found no developer portal, documentation, SDK, webhook surface, or
+machine-readable specification: every contract-discovery path on `www.manusbio.com` returned 404, no
+`api.`/`docs.`/`developer.` subdomain resolves, and the `github.com/ManusBio` organization publishes zero
+public repositories. See `x-coverage` in `apis.yml`.
+
+- https://www.manusbio.com/
+- https://github.com/ManusBio
+- https://forgeglobal.com/manus-bio_stock/ (secondary-market listing this profile was harvested from)
