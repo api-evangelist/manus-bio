@@ -1,5 +1,16 @@
 aid: manus-bio
 name: Manus Bio
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://cdn.prod.website-files.com/6536fe08e98c41581598326f/6682ee89aa355ed6e2dca105_Manus%20Social%20Image.png
 description: 'Manus Bio Inc. (trading as "Manus", the BioAlternatives Company) is a Cambridge,
   Massachusetts industrial biotechnology company founded in 2011 out of MIT by Dr. Aji Parayil
