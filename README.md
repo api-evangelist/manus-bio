@@ -64,20 +64,83 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Manus Bio Inc. (trading as "Manus", the BioAlternatives Company) is a Cambridge, Massachusetts industrial
-biotechnology company founded in 2011 out of MIT. Manus engineers microbial cell factories and
-precision-fermentation processes so complex molecules normally obtained through petrochemical synthesis,
-agricultural extraction, or animal husbandry can be produced by fermentation instead. Commercialized products
-include the first U.S. commercial-scale monk fruit sweetener (Augusta, Georgia BioFacility), the Yume™ M stevia
-Reb M sweetener co-developed with Tate & Lyle, citrus aroma ingredients for Givaudan, and an HHS/ASPR-funded
-artemisinin program. It merged with genome-engineering company Inscripta in April 2025.
+Manus Bio Inc. (trading as "Manus", the BioAlternatives Company) is a Cambridge, Massachusetts industrial biotechnology company founded in 2011 out of MIT by Dr. Aji Parayil and Dr. Greg Stephanopoulos. Manus engineers microbial cell factories and precision-fermentation processes so that complex molecules normally obtained through petrochemical synthesis, agricultural extraction, or animal husbandry can be produced by fermentation instead - what the company calls bioalternatives. Its commercialized products include the first U.S. commercial-scale monk fruit sweetener (produced at its Augusta, Georgia BioFacility), the Yume M stevia Reb M sweetener co-developed with Tate & Lyle, citrus-derived aroma ingredients (Nootkatone 70, Valencene 80, BioNootkatone) for Givaudan, and an artemisinin antimalarial program funded by HHS/ASPR. It sells scale-up services through its BioAccelerator and BioManufacturing programs (protein engineering, strain development, bioprocess development from 250 ml to 3,000 L, pilot-scale and biomanufacturing). In April 2025 Manus merged with genome-engineering company Inscripta, adding whole-genome editing technology and the MAD7 CRISPR nuclease licensing program; inscripta.com is now a redirect notice. Manus is a manufacturer of physical ingredients and a contract development and manufacturing organization - it sells molecules and services, not software. It publishes no public API, developer portal, SDK, webhook surface, or machine-readable specification of any kind, and its computational and AI-driven enzyme-engineering tools are internal capabilities that support its services rather than a customer-facing platform.
 
-**No public API surface.** Manus sells molecules and contract biomanufacturing services, not software.
-An enrichment pass on 2026-08-04 found no developer portal, documentation, SDK, webhook surface, or
-machine-readable specification: every contract-discovery path on `www.manusbio.com` returned 404, no
-`api.`/`docs.`/`developer.` subdomain resolves, and the `github.com/ManusBio` organization publishes zero
-public repositories. See `x-coverage` in `apis.yml`.
+**Areas:** Company · Biotechnology · Synthetic Biology · Biomanufacturing · Industrial Biotechnology · Precision Fermentation · Ingredients · Food and Beverage · Sustainability · Life Sciences
 
-- https://www.manusbio.com/
-- https://github.com/ManusBio
-- https://forgeglobal.com/manus-bio_stock/ (secondary-market listing this profile was harvested from)
+## Manus Bio on APIs.io
+
+Everything profiled for Manus Bio is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/manus-bio/](https://apis.io/providers/manus-bio/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Manus Bio Domain Security](https://apis.io/security/manus-bio/manus-bio-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.manusbio.com/)
+- [Blog](https://www.manusbio.com/insights-and-news)
+- [Terms of service](https://www.manusbio.com/terms-and-conditions)
+- [Privacy policy](https://www.manusbio.com/cookie-and-privacy-policy)
+- [GitHub](https://github.com/ManusBio)
+
+## API Evangelist rating
+
+**Kin Score 10.0** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 21.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.9** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/manus-bio/](https://apis.io/providers/manus-bio/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Manus Bio: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/manus-bio/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
